@@ -1,0 +1,116 @@
+
+//初始化一个git版本库
+         git init:初始化仓库，在当前目录生成一个.git文件，即版本库
+
+
+//添加文件到暂存区
+         git add:添加文件到暂存区
+
+
+//提交暂存区的文件到本地仓库
+         git commit -m:将缓存区内容提交到本地仓库中
+
+
+//内容替换
+         git checkout <file>:使用最近一次git add或者git commit命令的内容替换“工作区文件的内容"
+
+         gti checkout HEAD <file>:使用本地仓库的文件替换暂存区和工作区的文件    
+
+
+//克隆远程仓库
+         git clone:克隆远程仓库到本地，可以制定目录下
+
+
+//重置版本库
+         git reset <commit>:用仓库的目录树替换暂存区的目录树，恢复成未改动之前
+
+
+//移除文件
+         git rm <file>:删除暂存区和工作区的这个文件，从磁盘上永久删除
+
+         git rm --cached <file>:删除暂存区的这个文件，不影响工作区
+
+
+//查看和上次提交是否有改动
+         git status:查看上从提交后是否有更改
+
+         git status -s:以更精简的方式显示文件的状态
+         
+         git status -uno:查看所有被git跟踪，已发生修改但未提交的文件
+
+
+//查看改动前后的差异
+         git diff <file>:工作区和缓存区的对比
+
+         git diff --cached <file>:暂存区和仓库的区别
+
+         git diff <commit> <file>:工作区和仓库的区别
+
+         git diff <commit> <commit>:仓库和仓库之间的改动
+         
+         git diff <branch> <branch>:分支之间的比较
+         
+         git diff --staged:暂存区和版本库之间的比较
+         
+         git diff <file> # 比较当前文件和暂存区文件差异 git diff
+
+
+         git diff --stat # 仅仅比较统计信息//原文出自【易百教程】，商业转载请联系作者获得授权，非商业请保留原文链接：https://www.yiibai.com/git/git_diff.html
+
+
+
+
+//分支合并  
+         git branch:列出当前分支 
+         
+         git branch -r:查看远程分支
+
+         git branch <name>:创立一个新分支
+
+         git branch -d <name>:删除分支
+ 
+         git checkout -b <name>:创立一个新分支并切换到新分支上
+         
+         git push origin --delete <name>:删除远程分支
+         
+         git merge <name>:在当前分支上合并其他分支
+
+         /******当在新分支上做了更新提交后，返回其他分支，工作区状体会恢复到切换分支时的样子******/
+         /******合并分支出现的冲突，多是因为主分支和其他分支都发生了更改了提交，git不知道采取哪条分支上的内容
+  
+
+//查看提交日志
+         git log:打印详细的提交日志
+
+         git log --oneline:只显示16进制版本号、提交日志
+
+         git log --graph:以图的形式查看提交、合并、创建新分支
+
+         git log --author=<name> :只查看对应作者提交的部分      
+
+         git log --before{}/--until{}/--since{}/--after{}:查看指定日期的提交
+
+
+//设置标签
+         git tag -a <tagname> -m”注释":指定标签命令信息
+
+         git tag -m <tagname> -m"注释":
+         
+         
+         
+//隐藏修改：
+         git stash:隐藏最近一次的修改到堆栈，退回到最近一次提交
+         
+         git stash list:查看堆栈中的内容
+         
+         git stash apply [index]:切换到指定的堆栈版本
+         
+         git stash drop [index]:弹出指定的堆栈版本
+         
+         git stash save --keep-index:在堆栈保存所有的更改      
+
+
+
+//查看文件：
+         
+        
