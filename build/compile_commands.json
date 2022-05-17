@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/build",
+  "command": "/usr/bin/gcc  -I/home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/include -g -o CMakeFiles/Sort.dir/main.c.o -c /home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/main.c",
+  "file": "/home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/main.c"
+},
+{
+  "directory": "/home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/build",
+  "command": "/usr/bin/gcc  -I/home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/include -g -o CMakeFiles/Sort.dir/sources/B_Tree.c.o -c /home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/sources/B_Tree.c",
+  "file": "/home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/sources/B_Tree.c"
+},
+{
+  "directory": "/home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/build",
+  "command": "/usr/bin/gcc  -I/home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/include -g -o CMakeFiles/Sort.dir/sources/Search.c.o -c /home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/sources/Search.c",
+  "file": "/home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/sources/Search.c"
+},
+{
+  "directory": "/home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/build",
+  "command": "/usr/bin/gcc  -I/home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/include -g -o CMakeFiles/Sort.dir/sources/Sort.c.o -c /home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/sources/Sort.c",
+  "file": "/home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/sources/Sort.c"
+},
+{
+  "directory": "/home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/build",
+  "command": "/usr/bin/gcc  -I/home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/include -g -o CMakeFiles/Sort.dir/sources/String.c.o -c /home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/sources/String.c",
+  "file": "/home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/sources/String.c"
+},
+{
+  "directory": "/home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/build",
+  "command": "/usr/bin/gcc  -I/home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/include -g -o CMakeFiles/Sort.dir/sources/Tree.c.o -c /home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/sources/Tree.c",
+  "file": "/home/smallhuazi/VSCode/C_C++/CTest/SortAndSearch/sources/Tree.c"
+}
+]

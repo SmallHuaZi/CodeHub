@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.c": "c",
+        "stdio.h": "c",
+        "search.h": "c",
+        "malloc.h": "c",
+        "sort.h": "c",
+        "string.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
+}

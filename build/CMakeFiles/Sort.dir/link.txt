@@ -1,0 +1,1 @@
+/usr/bin/gcc -g -rdynamic CMakeFiles/Sort.dir/main.c.o CMakeFiles/Sort.dir/sources/B_Tree.c.o CMakeFiles/Sort.dir/sources/Search.c.o CMakeFiles/Sort.dir/sources/Sort.c.o CMakeFiles/Sort.dir/sources/String.c.o CMakeFiles/Sort.dir/sources/Tree.c.o -o ../bin/Sort 
